@@ -12,11 +12,7 @@ int main() {
   
   scanf("%d %ld %c %f %lf", &a, &b, &ch, &f, &d);
   
-  printf("%d\n", a);
-  printf("%ld\n", b);
-  printf("%c\n", ch);
-  printf("%f\n", f);
-  printf("%lf", d);
+  printf("%d\n%ld\n%c\n%f\n%lf", a, b, ch, f, d);
   
   return 0;
 }
